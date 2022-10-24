@@ -5,8 +5,8 @@
 
 Console.Write("Введите любое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-
 int count = 0;
+
 while (number >= 1000)
 {
     number = number / 10;
